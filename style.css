@@ -1,0 +1,76 @@
+
+body{
+    background-color: aliceblue;
+}
+#calculator {
+    width: 320px;
+    height: 520px;
+    margin: 20px auto;
+	background-color: antiquewhite;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgb(202, 162, 126);
+    padding: 20px 10px 0px 10px;
+}
+#display{
+    height: 100px;
+    background-color: rgba(80, 69, 56, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow:inset 2px 2px 1px rgb(184, 152, 124);
+    
+}
+
+#result {
+    height: 45px;
+    overflow: hidden;
+    
+    text-align: right;
+    padding-right: 15px;
+    color: rgb(177, 158, 133);
+    font-size: 20px;
+    
+}
+
+#currentoutput {
+    height: 45px;
+    overflow: hidden;
+    text-align: right;
+    padding: 10px 15px;
+    color: rgb(177, 158, 133);
+    font-size: 29px;
+    padding-top: 0px;
+    
+}
+
+#buttons{
+    height: 380px;
+    padding-top: 10px;
+}
+
+.operator, .number{
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	float: left;
+	border-radius: 40%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(202, 162, 126);
+    cursor: pointer;
+
+}
+
+.operator:active, .number:active{
+    box-shadow: 1px 1px 2px rgb(202, 162, 126);
+}
+.operator:hover, .number:hover{
+	background-color: rgb(241, 236, 231)
+}
+
+#clear-all, #zero, #equals{
+    width: 140px;
+    border-radius: 10px;
+}
+
