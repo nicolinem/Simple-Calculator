@@ -1,6 +1,7 @@
 
 body{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-color: rgba(243, 239, 233, 0.726);
 }
 #calculator {
     width: 320px;
@@ -10,36 +11,35 @@ body{
     border-radius: 6px;
     box-shadow: 2px 2px 2px rgb(202, 162, 126);
     padding: 20px 10px 0px 10px;
+    top: 6rem;
+    position: relative;
 }
 #display{
-    height: 100px;
+    height: 90px;
     background-color: rgba(80, 69, 56, 0.2);
     border-radius: 5px;
-    overflow: hidden;
     box-shadow:inset 2px 2px 1px rgb(184, 152, 124);
-    
+    padding: 5px 10px;
+
 }
 
 #result {
-    height: 45px;
-    overflow: hidden;
-    
+    padding-top: 10px;
+    height: 35%;
     text-align: right;
-    padding-right: 15px;
     color: rgb(177, 158, 133);
     font-size: 20px;
-    
 }
 
 #currentoutput {
-    height: 45px;
-    overflow: hidden;
-    text-align: right;
-    padding: 10px 15px;
+    height: 50%;
     color: rgb(177, 158, 133);
     font-size: 29px;
-    padding-top: 0px;
-    
+    text-align: right;
+}
+
+#result > *, #currentoutput > * {
+    margin: 0px 0;
 }
 
 #buttons{
@@ -55,7 +55,7 @@ body{
 	border-radius: 40%;
 	border-width: 0;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 18px;
     background-color: white;
     box-shadow: 2px 2px 2px rgb(202, 162, 126);
     cursor: pointer;
